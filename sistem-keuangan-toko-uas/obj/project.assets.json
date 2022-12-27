@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {}
+    "C:\\Users\\Lisna Agustin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
+      "projectUniqueName": "C:\\Users\\Lisna Agustin\\Documents\\SEMESTER 3\\PEMROGRAMAN VISUAL\\sistem keuangan toko\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
       "projectName": "sistem-keuangan-toko-uas",
-      "projectPath": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\obj\\",
+      "projectPath": "C:\\Users\\Lisna Agustin\\Documents\\SEMESTER 3\\PEMROGRAMAN VISUAL\\sistem keuangan toko\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
+      "packagesPath": "C:\\Users\\Lisna Agustin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lisna Agustin\\Documents\\SEMESTER 3\\PEMROGRAMAN VISUAL\\sistem keuangan toko\\sistem-keuangan-toko-uas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lisna Agustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
