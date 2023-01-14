@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Sarah\\Kuliah\\Semester 3\\Pemrograman Visual\\sistem-keuangan\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
       "projectName": "sistem-keuangan-toko-uas",
-      "projectPath": "D:\\Sarah\\Kuliah\\Semester 3\\Pemrograman Visual\\sistem-keuangan\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
+      "projectPath": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas.vbproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "D:\\Sarah\\Kuliah\\Semester 3\\Pemrograman Visual\\sistem-keuangan\\sistem-keuangan-toko-uas\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\source\\repos\\sistem-keuangan-toko-uas\\sistem-keuangan-toko-uas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
