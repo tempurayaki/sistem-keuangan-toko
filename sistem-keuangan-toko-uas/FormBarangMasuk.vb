@@ -1,4 +1,5 @@
-﻿Imports MySql.Data.MySqlClient
+
+Imports MySql.Data.MySqlClient
 Imports System.Text.RegularExpressions
 Imports Mysqlx.XDevAPI.Common
 Imports System.Reflection.Emit
@@ -131,5 +132,5 @@ Public Class FormBarangMasuk
             formSignIn.Show()
             Me.Close()
         End If
-    End Sub
+        
 End Class
