@@ -45,82 +45,93 @@ Partial Class FormSignUp
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Segoe UI", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label4.Location = New System.Drawing.Point(556, 57)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(120, 38)
+        Me.Label4.Size = New System.Drawing.Size(116, 34)
         Me.Label4.TabIndex = 35
         Me.Label4.Text = "Sign Up"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label3.Location = New System.Drawing.Point(456, 264)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(87, 25)
+        Me.Label3.Size = New System.Drawing.Size(82, 21)
         Me.Label3.TabIndex = 32
         Me.Label3.Text = "Password"
         '
         'Label2
         '
         Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(456, 190)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(54, 25)
+        Me.Label2.Size = New System.Drawing.Size(51, 21)
         Me.Label2.TabIndex = 31
         Me.Label2.Text = "Email"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Label1.Location = New System.Drawing.Point(456, 112)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(91, 25)
+        Me.Label1.Size = New System.Drawing.Size(88, 21)
         Me.Label1.TabIndex = 30
         Me.Label1.Text = "Username"
         '
         'Txt_Username
         '
+        Me.Txt_Username.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_Username.Location = New System.Drawing.Point(456, 142)
         Me.Txt_Username.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Txt_Username.Name = "Txt_Username"
-        Me.Txt_Username.Size = New System.Drawing.Size(321, 31)
+        Me.Txt_Username.Size = New System.Drawing.Size(321, 30)
         Me.Txt_Username.TabIndex = 38
         '
         'Txt_Password
         '
+        Me.Txt_Password.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_Password.Location = New System.Drawing.Point(456, 294)
         Me.Txt_Password.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Txt_Password.Name = "Txt_Password"
-        Me.Txt_Password.Size = New System.Drawing.Size(321, 31)
+        Me.Txt_Password.Size = New System.Drawing.Size(321, 30)
         Me.Txt_Password.TabIndex = 39
         '
         'Txt_Email
         '
+        Me.Txt_Email.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_Email.Location = New System.Drawing.Point(456, 220)
         Me.Txt_Email.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Txt_Email.Name = "Txt_Email"
-        Me.Txt_Email.Size = New System.Drawing.Size(321, 31)
+        Me.Txt_Email.Size = New System.Drawing.Size(321, 30)
         Me.Txt_Email.TabIndex = 40
         '
         'BtnSignUp
         '
-        Me.BtnSignUp.Location = New System.Drawing.Point(512, 357)
+        Me.BtnSignUp.BackColor = System.Drawing.Color.CornflowerBlue
+        Me.BtnSignUp.FlatAppearance.BorderSize = 0
+        Me.BtnSignUp.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnSignUp.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.BtnSignUp.ForeColor = System.Drawing.SystemColors.HighlightText
+        Me.BtnSignUp.Location = New System.Drawing.Point(508, 358)
         Me.BtnSignUp.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnSignUp.Name = "BtnSignUp"
-        Me.BtnSignUp.Size = New System.Drawing.Size(221, 38)
+        Me.BtnSignUp.Size = New System.Drawing.Size(221, 50)
         Me.BtnSignUp.TabIndex = 41
         Me.BtnSignUp.Text = "Sign Up"
-        Me.BtnSignUp.UseVisualStyleBackColor = True
+        Me.BtnSignUp.UseVisualStyleBackColor = False
         '
         'FormSignUp
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BackColor = System.Drawing.SystemColors.InactiveBorder
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.BtnSignUp)
         Me.Controls.Add(Me.Txt_Email)

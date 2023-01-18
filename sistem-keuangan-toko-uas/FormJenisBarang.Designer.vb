@@ -45,17 +45,19 @@ Partial Class FormJenisBarang
         '
         Me.DataGridJenisBarang.BackgroundColor = System.Drawing.Color.MistyRose
         Me.DataGridJenisBarang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridJenisBarang.Location = New System.Drawing.Point(470, 139)
+        Me.DataGridJenisBarang.Location = New System.Drawing.Point(476, 139)
         Me.DataGridJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.DataGridJenisBarang.Name = "DataGridJenisBarang"
         Me.DataGridJenisBarang.RowHeadersWidth = 62
         Me.DataGridJenisBarang.RowTemplate.Height = 25
-        Me.DataGridJenisBarang.Size = New System.Drawing.Size(583, 267)
+        Me.DataGridJenisBarang.Size = New System.Drawing.Size(430, 267)
         Me.DataGridJenisBarang.TabIndex = 25
         '
         'BtnHapusJenisBarang
         '
         Me.BtnHapusJenisBarang.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.BtnHapusJenisBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnHapusJenisBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnHapusJenisBarang.Location = New System.Drawing.Point(297, 371)
         Me.BtnHapusJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnHapusJenisBarang.Name = "BtnHapusJenisBarang"
@@ -67,6 +69,8 @@ Partial Class FormJenisBarang
         'BtnUpdateJenisBarang
         '
         Me.BtnUpdateJenisBarang.BackColor = System.Drawing.Color.MistyRose
+        Me.BtnUpdateJenisBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnUpdateJenisBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnUpdateJenisBarang.Location = New System.Drawing.Point(174, 371)
         Me.BtnUpdateJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnUpdateJenisBarang.Name = "BtnUpdateJenisBarang"
@@ -78,6 +82,8 @@ Partial Class FormJenisBarang
         'BtnTambahJenisBarang
         '
         Me.BtnTambahJenisBarang.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.BtnTambahJenisBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnTambahJenisBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.BtnTambahJenisBarang.Location = New System.Drawing.Point(51, 371)
         Me.BtnTambahJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.BtnTambahJenisBarang.Name = "BtnTambahJenisBarang"
@@ -93,85 +99,86 @@ Partial Class FormJenisBarang
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(9, 3, 0, 3)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1100, 42)
+        Me.MenuStrip1.Size = New System.Drawing.Size(962, 33)
         Me.MenuStrip1.TabIndex = 21
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'PilihMenuLainnyaToolStripMenuItem
         '
         Me.PilihMenuLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FormPenjualanToolStripMenuItem, Me.FormBarangToolStripMenuItem, Me.FormBarangMasukToolStripMenuItem, Me.SignOutToolStripMenuItem, Me.PilihMenuLainnyaToolStripMenuItem1})
-        Me.PilihMenuLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
+        Me.PilihMenuLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.PilihMenuLainnyaToolStripMenuItem.Name = "PilihMenuLainnyaToolStripMenuItem"
-        Me.PilihMenuLainnyaToolStripMenuItem.Size = New System.Drawing.Size(240, 36)
+        Me.PilihMenuLainnyaToolStripMenuItem.Size = New System.Drawing.Size(207, 27)
         Me.PilihMenuLainnyaToolStripMenuItem.Text = "Pilih Menu Lainnya"
         '
         'FormPenjualanToolStripMenuItem
         '
         Me.FormPenjualanToolStripMenuItem.Name = "FormPenjualanToolStripMenuItem"
-        Me.FormPenjualanToolStripMenuItem.Size = New System.Drawing.Size(338, 40)
+        Me.FormPenjualanToolStripMenuItem.Size = New System.Drawing.Size(303, 34)
         Me.FormPenjualanToolStripMenuItem.Text = "Form Penjualan"
         '
         'FormBarangToolStripMenuItem
         '
         Me.FormBarangToolStripMenuItem.Name = "FormBarangToolStripMenuItem"
-        Me.FormBarangToolStripMenuItem.Size = New System.Drawing.Size(338, 40)
+        Me.FormBarangToolStripMenuItem.Size = New System.Drawing.Size(303, 34)
         Me.FormBarangToolStripMenuItem.Text = "Form Barang"
         '
         'FormBarangMasukToolStripMenuItem
         '
         Me.FormBarangMasukToolStripMenuItem.Name = "FormBarangMasukToolStripMenuItem"
-        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(338, 40)
+        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(303, 34)
         Me.FormBarangMasukToolStripMenuItem.Text = "Form Barang Masuk"
         '
         'SignOutToolStripMenuItem
         '
         Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
-        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(338, 40)
+        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(303, 34)
         Me.SignOutToolStripMenuItem.Text = "Sign Out"
         '
         'PilihMenuLainnyaToolStripMenuItem1
         '
         Me.PilihMenuLainnyaToolStripMenuItem1.Name = "PilihMenuLainnyaToolStripMenuItem1"
-        Me.PilihMenuLainnyaToolStripMenuItem1.Size = New System.Drawing.Size(338, 40)
+        Me.PilihMenuLainnyaToolStripMenuItem1.Size = New System.Drawing.Size(303, 34)
         Me.PilihMenuLainnyaToolStripMenuItem1.Text = "Pilih Menu Lainnya"
         '
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources.WhatsApp_Image_2022_12_25_at_22_50_27
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel1.Location = New System.Drawing.Point(118, 73)
+        Me.Panel1.Location = New System.Drawing.Point(99, 73)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(233, 203)
+        Me.Panel1.Size = New System.Drawing.Size(280, 203)
         Me.Panel1.TabIndex = 26
         '
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(656, 73)
+        Me.Label7.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label7.Location = New System.Drawing.Point(591, 73)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(182, 38)
+        Me.Label7.Size = New System.Drawing.Size(186, 34)
         Me.Label7.TabIndex = 70
         Me.Label7.Text = "Jenis Barang"
         '
         'TxtTambahJenisBarang
         '
+        Me.TxtTambahJenisBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.TxtTambahJenisBarang.Location = New System.Drawing.Point(51, 331)
         Me.TxtTambahJenisBarang.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.TxtTambahJenisBarang.Name = "TxtTambahJenisBarang"
-        Me.TxtTambahJenisBarang.Size = New System.Drawing.Size(361, 31)
+        Me.TxtTambahJenisBarang.Size = New System.Drawing.Size(361, 30)
         Me.TxtTambahJenisBarang.TabIndex = 71
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(143, 298)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(194, 28)
+        Me.Label2.Size = New System.Drawing.Size(200, 23)
         Me.Label2.TabIndex = 72
         Me.Label2.Text = "Nama Jenis Barang"
         '
@@ -179,7 +186,7 @@ Partial Class FormJenisBarang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1100, 448)
+        Me.ClientSize = New System.Drawing.Size(962, 448)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.TxtTambahJenisBarang)
         Me.Controls.Add(Me.Label7)
