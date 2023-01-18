@@ -1,44 +1,43 @@
-﻿Imports System.Security.Cryptography
+Imports System.Security.Cryptography
 Imports System.Text
 Imports MySql.Data.MySqlClient
 Public Class ClassBarang
 
     Private idBarang As String
+    Private idjenisbarang As String
     Private namaBarang As String
     Private tanggalkadaluarsaBarang As String
     Private tanggalMasukBarang As String
     Private stock As Integer
     Private hargaBarang As Integer
+
     Private barangDataTable As New ArrayList()
 
     'Database Global Variabel
+    Public Shared sqlCommand As New MySqlCommand
+    Public Shared myconnection As New ClassBarang
+    Public Shared dadapter As MySqlDataAdapter
+    Public Shared dTabel As New DataTable
+    Private sqlQuery As String
 
-    'Public Shared dbConn As New MySqlConnection
-    'Public Shared sqlCommand As New MySqlCommand
-    'Public Shared sqlRead As MySqlDataReader
-    'Private sqlQuery As String
     'Public dt As New DataTable
-
-
-    'Dim mycmd As New MySqlCommand
     'Dim myconnection As New ClassBarang
     'Dim dadapter As MySqlDataAdapter
     'Dim dTabel As New DataTable
 
-    'Definisi database yang dikoneksi
     Private server As String = "localhost"
     Private username As String = "root"
     Private password As String = ""
     Private database As String = "sistem-keuangan-toko"
 
-    'dbConn bisa disingkat menjadi seperti ini agar tidak boros kalimat
+    'penyingkatan dbConn (MySQLConnection)
     Dim connect As New MySqlConnection("server=localhost;username=root;password='';database='sistem-keuangan-toko';Convert Zero Datetime=True")
 
     Public Function open() As MySqlConnection
         Try
             connect.Open()
         Catch ex As Exception
-
+            MsgBox(ex.Message)
         End Try
         Return connect
     End Function
@@ -146,7 +145,7 @@ Public Class ClassBarang
 
     'End Function
 
-    Public Function CovertBarangToString(vals As List(Of String))
+    Public Function ConvertBarangToString(vals As List(Of String))
         Dim builder As StringBuilder = New StringBuilder
         For Each val As String In vals
             builder.Append(val).Append("|")
@@ -339,7 +338,7 @@ Public Class ClassBarang
     'End Function
 
 
-    Public Property GSNamaBarangProperty() As String
+    Public Property NamaBarangProperty() As String
         Get
             Return namaBarang
         End Get
@@ -348,7 +347,7 @@ Public Class ClassBarang
         End Set
     End Property
 
-    Public Property GSidBarangProperty() As String
+    Public Property idBarangProperty() As String
         Get
             Return idBarang
         End Get
@@ -357,7 +356,16 @@ Public Class ClassBarang
         End Set
     End Property
 
-    Public Property GStanggalkadaluarsaBarangProperty() As String
+    Public Property idJenisBarangProperty() As String
+        Get
+            Return idjenisbarang
+        End Get
+        Set(ByVal value As String)
+            idjenisbarang = value
+        End Set
+    End Property
+
+    Public Property tanggalkadaluarsaBarangProperty() As String
         Get
             Return tanggalkadaluarsaBarang
         End Get
@@ -366,7 +374,7 @@ Public Class ClassBarang
         End Set
     End Property
 
-    Public Property GStanggalMasukBarangProperty() As String
+    Public Property tanggalMasukBarangProperty() As String
         Get
             Return tanggalMasukBarang
         End Get
@@ -375,7 +383,7 @@ Public Class ClassBarang
         End Set
     End Property
 
-    Public Property GSStockProperty() As Integer
+    Public Property StockProperty() As Integer
         Get
             Return stock
         End Get
@@ -384,7 +392,7 @@ Public Class ClassBarang
         End Set
     End Property
 
-    Public Property GShargaBarangProperty() As String
+    Public Property hargaBarangProperty() As String
         Get
             Return hargaBarang
         End Get

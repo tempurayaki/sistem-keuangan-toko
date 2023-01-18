@@ -1,4 +1,4 @@
-﻿Public Class FormSignIn
+Public Class FormSignIn
     Public Shared User As New ClassUser()
     Public Shared Barang As FormBarang
 
