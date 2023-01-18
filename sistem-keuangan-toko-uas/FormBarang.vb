@@ -1,4 +1,4 @@
-﻿
+
 Imports MySql.Data.MySqlClient
 Imports Mysqlx.XDevAPI.Common
 
@@ -62,7 +62,7 @@ Public Class FormBarang
 
     Public Sub Result_DGVStock()
         mycmd.Connection = myconnection.open
-        mycmd.CommandText = "SELECT a.id_barang, a.nama_barang, (a.stock + SUM(b.jumlah_barang_masuk)) - SUM(c.jumlah_barang) AS stock FROM barang a INNER JOIN barang_masuk b ON a.id_barang = b.id_barang INNER JOIN penjualan c ON a.id_barang = c.id_barang;"
+        mycmd.CommandText = "SELECT a.id_barang, a.nama_barang, (a.stock + SUM(b.jumlah_barang_masuk)) - SUM(c.jumlah_barang) AS stock FROM barang a INNER JOIN barang_masuk b ON a.id_barang = b.id_barang INNER JOIN penjualan c ON a.id_barang = c.id_barang GROUP BY a.id_barang;"
         dadapter = New MySqlDataAdapter(mycmd)
         stockTable.Rows.Clear()
         dadapter.Fill(stockTable)
