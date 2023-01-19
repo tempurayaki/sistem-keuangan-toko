@@ -1,5 +1,5 @@
-<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormBarang
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class FormPenjualan
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,342 +22,232 @@ Partial Class FormBarang
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Txt_harga = New System.Windows.Forms.TextBox()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Date_Masuk = New System.Windows.Forms.DateTimePicker()
-        Me.Date_Kadaluarsa = New System.Windows.Forms.DateTimePicker()
-        Me.Txt_stock = New System.Windows.Forms.TextBox()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Txt_NamaBarang = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.SignOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TSMenu_FormPenjualan = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TSMenu_FormJenisBarang = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PilihFormLainnyaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TSMenu_FormBarangMasuk = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Btn_HapusBarang = New System.Windows.Forms.Button()
-        Me.Btn_UpdateBarang = New System.Windows.Forms.Button()
-        Me.Btn_TambahBarang = New System.Windows.Forms.Button()
-        Me.DGV_Barang = New System.Windows.Forms.DataGridView()
-        Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ToolStripLabel2 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripTextBox1 = New System.Windows.Forms.ToolStripTextBox()
+        Me.ToolStripLabel1 = New System.Windows.Forms.ToolStripLabel()
+        Me.ToolStripJenisBrg = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripPenjualan = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripBrgMasuk = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.ToolStripBarang = New System.Windows.Forms.ToolStripButton()
+        Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
+        Me.ToolStripSignOut = New System.Windows.Forms.ToolStripButton()
+        Me.Btn_TambahPenjualan = New System.Windows.Forms.Button()
+        Me.DGV_Penjualan = New System.Windows.Forms.DataGridView()
         Me.Label8 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Panel1.SuspendLayout()
-        CType(Me.DGV_Barang, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.MenuStrip1.SuspendLayout()
+        Me.Btn_UpdatePenjualan = New System.Windows.Forms.Button()
+        Me.Btn_HapusPenjualan = New System.Windows.Forms.Button()
+        Me.ToolStrip1.SuspendLayout()
+        CType(Me.DGV_Penjualan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label2
+        'Label1
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(17, 26)
-        Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(132, 22)
-        Me.Label2.TabIndex = 11
-        Me.Label2.Text = "Nama Barang"
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.Location = New System.Drawing.Point(352, 92)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(365, 34)
+        Me.Label1.TabIndex = 81
+        Me.Label1.Text = "_________________________"
         '
-        'Label4
+        'ToolStripLabel2
         '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(17, 121)
-        Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(64, 22)
-        Me.Label4.TabIndex = 13
-        Me.Label4.Text = "Harga"
+        Me.ToolStripLabel2.Name = "ToolStripLabel2"
+        Me.ToolStripLabel2.Size = New System.Drawing.Size(62, 29)
+        Me.ToolStripLabel2.Text = "          "
         '
-        'Label5
+        'ToolStripTextBox1
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(17, 172)
-        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(143, 22)
-        Me.Label5.TabIndex = 16
-        Me.Label5.Text = "Tanggal Masuk"
+        Me.ToolStripTextBox1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.ToolStripTextBox1.Name = "ToolStripTextBox1"
+        Me.ToolStripTextBox1.Size = New System.Drawing.Size(100, 34)
         '
-        'Label6
+        'ToolStripLabel1
         '
-        Me.Label6.AutoSize = True
-        Me.Label6.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label6.Location = New System.Drawing.Point(17, 217)
-        Me.Label6.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(186, 22)
-        Me.Label6.TabIndex = 17
-        Me.Label6.Text = "Tanggal Kadaluarsa"
+        Me.ToolStripLabel1.Name = "ToolStripLabel1"
+        Me.ToolStripLabel1.Size = New System.Drawing.Size(32, 29)
+        Me.ToolStripLabel1.Text = "    "
         '
-        'Txt_harga
+        'ToolStripJenisBrg
         '
-        Me.Txt_harga.Location = New System.Drawing.Point(210, 121)
-        Me.Txt_harga.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Txt_harga.Name = "Txt_harga"
-        Me.Txt_harga.Size = New System.Drawing.Size(311, 30)
-        Me.Txt_harga.TabIndex = 9
+        Me.ToolStripJenisBrg.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ToolStripJenisBrg.Image = Global.sistem_keuangan_toko_uas.My.Resources.Resources.product
+        Me.ToolStripJenisBrg.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripJenisBrg.Name = "ToolStripJenisBrg"
+        Me.ToolStripJenisBrg.Size = New System.Drawing.Size(163, 29)
+        Me.ToolStripJenisBrg.Text = "Jenis Barang"
         '
-        'Label3
+        'ToolStripSeparator3
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(17, 74)
-        Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(58, 22)
-        Me.Label3.TabIndex = 12
-        Me.Label3.Text = "Stock"
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(6, 34)
         '
-        'Date_Masuk
+        'ToolStripPenjualan
         '
-        Me.Date_Masuk.CalendarForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Date_Masuk.Location = New System.Drawing.Point(210, 172)
-        Me.Date_Masuk.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Date_Masuk.Name = "Date_Masuk"
-        Me.Date_Masuk.Size = New System.Drawing.Size(311, 30)
-        Me.Date_Masuk.TabIndex = 14
+        Me.ToolStripPenjualan.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ToolStripPenjualan.Image = Global.sistem_keuangan_toko_uas.My.Resources.Resources.shopping_cart__2_
+        Me.ToolStripPenjualan.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripPenjualan.Name = "ToolStripPenjualan"
+        Me.ToolStripPenjualan.Size = New System.Drawing.Size(135, 29)
+        Me.ToolStripPenjualan.Text = "Penjualan"
         '
-        'Date_Kadaluarsa
+        'ToolStripSeparator2
         '
-        Me.Date_Kadaluarsa.Location = New System.Drawing.Point(210, 217)
-        Me.Date_Kadaluarsa.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Date_Kadaluarsa.Name = "Date_Kadaluarsa"
-        Me.Date_Kadaluarsa.Size = New System.Drawing.Size(311, 30)
-        Me.Date_Kadaluarsa.TabIndex = 15
+        Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(6, 34)
         '
-        'Txt_stock
+        'ToolStripBrgMasuk
         '
-        Me.Txt_stock.Location = New System.Drawing.Point(210, 68)
-        Me.Txt_stock.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Txt_stock.Name = "Txt_stock"
-        Me.Txt_stock.Size = New System.Drawing.Size(311, 30)
-        Me.Txt_stock.TabIndex = 8
+        Me.ToolStripBrgMasuk.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ToolStripBrgMasuk.Image = Global.sistem_keuangan_toko_uas.My.Resources.Resources.new_product
+        Me.ToolStripBrgMasuk.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripBrgMasuk.Name = "ToolStripBrgMasuk"
+        Me.ToolStripBrgMasuk.Size = New System.Drawing.Size(178, 29)
+        Me.ToolStripBrgMasuk.Text = "Barang Masuk"
         '
-        'Panel1
+        'ToolStripSeparator1
         '
-        Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.Label5)
-        Me.Panel1.Controls.Add(Me.Label6)
-        Me.Panel1.Controls.Add(Me.Txt_harga)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Date_Masuk)
-        Me.Panel1.Controls.Add(Me.Date_Kadaluarsa)
-        Me.Panel1.Controls.Add(Me.Txt_NamaBarang)
-        Me.Panel1.Controls.Add(Me.Txt_stock)
-        Me.Panel1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Panel1.Location = New System.Drawing.Point(45, 192)
-        Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(557, 279)
-        Me.Panel1.TabIndex = 40
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(6, 34)
         '
-        'Txt_NamaBarang
+        'ToolStripBarang
         '
-        Me.Txt_NamaBarang.Location = New System.Drawing.Point(210, 23)
-        Me.Txt_NamaBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Txt_NamaBarang.Name = "Txt_NamaBarang"
-        Me.Txt_NamaBarang.Size = New System.Drawing.Size(311, 30)
-        Me.Txt_NamaBarang.TabIndex = 7
+        Me.ToolStripBarang.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ToolStripBarang.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripBarang.Name = "ToolStripBarang"
+        Me.ToolStripBarang.Size = New System.Drawing.Size(164, 29)
+        Me.ToolStripBarang.Text = "Katalog Barang"
         '
-        'Label7
+        'ToolStrip1
         '
-        Me.Label7.AutoSize = True
-        Me.Label7.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(214, 160)
-        Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(185, 34)
-        Me.Label7.TabIndex = 30
-        Me.Label7.Text = "Form Barang"
+        Me.ToolStrip1.BackColor = System.Drawing.SystemColors.ControlLight
+        Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(25, 25)
+        Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripBarang, Me.ToolStripSeparator1, Me.ToolStripBrgMasuk, Me.ToolStripSeparator2, Me.ToolStripPenjualan, Me.ToolStripSeparator3, Me.ToolStripJenisBrg, Me.ToolStripLabel1, Me.ToolStripTextBox1, Me.ToolStripLabel2, Me.ToolStripSignOut})
+        Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
+        Me.ToolStrip1.Name = "ToolStrip1"
+        Me.ToolStrip1.Size = New System.Drawing.Size(960, 34)
+        Me.ToolStrip1.TabIndex = 80
+        Me.ToolStrip1.Text = "ToolStrip1"
         '
-        'SignOutToolStripMenuItem
+        'ToolStripSignOut
         '
-        Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
-        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(338, 40)
-        Me.SignOutToolStripMenuItem.Text = "Sign Out"
+        Me.ToolStripSignOut.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.ToolStripSignOut.Image = Global.sistem_keuangan_toko_uas.My.Resources.Resources.log_out
+        Me.ToolStripSignOut.ImageTransparentColor = System.Drawing.Color.Magenta
+        Me.ToolStripSignOut.Name = "ToolStripSignOut"
+        Me.ToolStripSignOut.Size = New System.Drawing.Size(57, 29)
+        Me.ToolStripSignOut.Text = "   "
+        Me.ToolStripSignOut.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage
         '
-        'TSMenu_FormPenjualan
+        'Btn_TambahPenjualan
         '
-        Me.TSMenu_FormPenjualan.Name = "TSMenu_FormPenjualan"
-        Me.TSMenu_FormPenjualan.Size = New System.Drawing.Size(338, 40)
-        Me.TSMenu_FormPenjualan.Text = "Form Penjualan"
+        Me.Btn_TambahPenjualan.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Btn_TambahPenjualan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn_TambahPenjualan.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Btn_TambahPenjualan.Location = New System.Drawing.Point(757, 177)
+        Me.Btn_TambahPenjualan.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Btn_TambahPenjualan.Name = "Btn_TambahPenjualan"
+        Me.Btn_TambahPenjualan.Size = New System.Drawing.Size(176, 50)
+        Me.Btn_TambahPenjualan.TabIndex = 76
+        Me.Btn_TambahPenjualan.Text = "Tambah"
+        Me.Btn_TambahPenjualan.UseVisualStyleBackColor = False
         '
-        'TSMenu_FormJenisBarang
+        'DGV_Penjualan
         '
-        Me.TSMenu_FormJenisBarang.Name = "TSMenu_FormJenisBarang"
-        Me.TSMenu_FormJenisBarang.Size = New System.Drawing.Size(338, 40)
-        Me.TSMenu_FormJenisBarang.Text = "Form Jenis Barang"
-        '
-        'PilihFormLainnyaToolStripMenuItem
-        '
-        Me.PilihFormLainnyaToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlLight
-        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.TSMenu_FormBarangMasuk, Me.SignOutToolStripMenuItem})
-        Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.PilihFormLainnyaToolStripMenuItem.Name = "PilihFormLainnyaToolStripMenuItem"
-        Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(207, 28)
-        Me.PilihFormLainnyaToolStripMenuItem.Text = "Pilih Menu Lainnya"
-        '
-        'TSMenu_FormBarangMasuk
-        '
-        Me.TSMenu_FormBarangMasuk.Name = "TSMenu_FormBarangMasuk"
-        Me.TSMenu_FormBarangMasuk.Size = New System.Drawing.Size(338, 40)
-        Me.TSMenu_FormBarangMasuk.Text = "Form Barang Masuk"
-        '
-        'Btn_HapusBarang
-        '
-        Me.Btn_HapusBarang.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Btn_HapusBarang.FlatAppearance.BorderSize = 0
-        Me.Btn_HapusBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_HapusBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_HapusBarang.Location = New System.Drawing.Point(416, 486)
-        Me.Btn_HapusBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Btn_HapusBarang.Name = "Btn_HapusBarang"
-        Me.Btn_HapusBarang.Size = New System.Drawing.Size(176, 50)
-        Me.Btn_HapusBarang.TabIndex = 37
-        Me.Btn_HapusBarang.Text = "Hapus"
-        Me.Btn_HapusBarang.UseVisualStyleBackColor = False
-        '
-        'Btn_UpdateBarang
-        '
-        Me.Btn_UpdateBarang.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Btn_UpdateBarang.FlatAppearance.BorderSize = 0
-        Me.Btn_UpdateBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_UpdateBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_UpdateBarang.Location = New System.Drawing.Point(232, 486)
-        Me.Btn_UpdateBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Btn_UpdateBarang.Name = "Btn_UpdateBarang"
-        Me.Btn_UpdateBarang.Size = New System.Drawing.Size(176, 50)
-        Me.Btn_UpdateBarang.TabIndex = 36
-        Me.Btn_UpdateBarang.Text = "Update"
-        Me.Btn_UpdateBarang.UseVisualStyleBackColor = False
-        '
-        'Btn_TambahBarang
-        '
-        Me.Btn_TambahBarang.BackColor = System.Drawing.SystemColors.HighlightText
-        Me.Btn_TambahBarang.FlatAppearance.BorderSize = 0
-        Me.Btn_TambahBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Btn_TambahBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_TambahBarang.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Btn_TambahBarang.Location = New System.Drawing.Point(48, 486)
-        Me.Btn_TambahBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Btn_TambahBarang.Name = "Btn_TambahBarang"
-        Me.Btn_TambahBarang.Size = New System.Drawing.Size(176, 50)
-        Me.Btn_TambahBarang.TabIndex = 35
-        Me.Btn_TambahBarang.Text = "Tambah"
-        Me.Btn_TambahBarang.UseVisualStyleBackColor = False
-        '
-        'DGV_Barang
-        '
-        Me.DGV_Barang.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.DGV_Barang.BorderStyle = System.Windows.Forms.BorderStyle.None
-        Me.DGV_Barang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_Barang.Location = New System.Drawing.Point(665, 136)
-        Me.DGV_Barang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.DGV_Barang.Name = "DGV_Barang"
-        Me.DGV_Barang.RowHeadersWidth = 51
-        Me.DGV_Barang.RowTemplate.Height = 29
-        Me.DGV_Barang.Size = New System.Drawing.Size(997, 457)
-        Me.DGV_Barang.TabIndex = 34
-        '
-        'MenuStrip1
-        '
-        Me.MenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PilihFormLainnyaToolStripMenuItem})
-        Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
-        Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 3, 0, 3)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1708, 33)
-        Me.MenuStrip1.TabIndex = 39
-        Me.MenuStrip1.Text = "MenuStrip1"
+        Me.DGV_Penjualan.BackgroundColor = System.Drawing.SystemColors.ControlLight
+        Me.DGV_Penjualan.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.DGV_Penjualan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DGV_Penjualan.Location = New System.Drawing.Point(60, 149)
+        Me.DGV_Penjualan.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.DGV_Penjualan.Name = "DGV_Penjualan"
+        Me.DGV_Penjualan.RowHeadersWidth = 51
+        Me.DGV_Penjualan.RowTemplate.Height = 29
+        Me.DGV_Penjualan.Size = New System.Drawing.Size(664, 251)
+        Me.DGV_Penjualan.TabIndex = 75
         '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(1064, 81)
+        Me.Label8.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label8.Location = New System.Drawing.Point(60, 92)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(223, 30)
-        Me.Label8.TabIndex = 38
-        Me.Label8.Text = "Informasi Barang"
+        Me.Label8.Size = New System.Drawing.Size(288, 34)
+        Me.Label8.TabIndex = 79
+        Me.Label8.Text = "Database Penjualan"
         '
-        'Panel2
+        'Btn_UpdatePenjualan
         '
-        Me.Panel2.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources._02june22_basket_icon_04_removebg_preview
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.Location = New System.Drawing.Point(867, 36)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(273, 116)
-        Me.Panel2.TabIndex = 41
+        Me.Btn_UpdatePenjualan.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Btn_UpdatePenjualan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn_UpdatePenjualan.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Btn_UpdatePenjualan.ForeColor = System.Drawing.Color.CornflowerBlue
+        Me.Btn_UpdatePenjualan.Location = New System.Drawing.Point(757, 247)
+        Me.Btn_UpdatePenjualan.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Btn_UpdatePenjualan.Name = "Btn_UpdatePenjualan"
+        Me.Btn_UpdatePenjualan.Size = New System.Drawing.Size(176, 50)
+        Me.Btn_UpdatePenjualan.TabIndex = 77
+        Me.Btn_UpdatePenjualan.Text = "Update"
+        Me.Btn_UpdatePenjualan.UseVisualStyleBackColor = False
         '
-        'Panel3
+        'Btn_HapusPenjualan
         '
-        Me.Panel3.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources._02june22_basket_icon_04_removebg_preview
-        Me.Panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel3.Location = New System.Drawing.Point(1212, 36)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(273, 116)
-        Me.Panel3.TabIndex = 42
+        Me.Btn_HapusPenjualan.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.Btn_HapusPenjualan.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Btn_HapusPenjualan.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Btn_HapusPenjualan.ForeColor = System.Drawing.Color.IndianRed
+        Me.Btn_HapusPenjualan.Location = New System.Drawing.Point(757, 320)
+        Me.Btn_HapusPenjualan.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Btn_HapusPenjualan.Name = "Btn_HapusPenjualan"
+        Me.Btn_HapusPenjualan.Size = New System.Drawing.Size(176, 50)
+        Me.Btn_HapusPenjualan.TabIndex = 78
+        Me.Btn_HapusPenjualan.Text = "Hapus"
+        Me.Btn_HapusPenjualan.UseVisualStyleBackColor = False
         '
-        'FormBarang
+        'FormPenjualan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(1708, 623)
-        Me.Controls.Add(Me.Label7)
-        Me.Controls.Add(Me.Btn_HapusBarang)
-        Me.Controls.Add(Me.Btn_UpdateBarang)
-        Me.Controls.Add(Me.Btn_TambahBarang)
-        Me.Controls.Add(Me.Panel1)
-        Me.Controls.Add(Me.DGV_Barang)
-        Me.Controls.Add(Me.MenuStrip1)
+        Me.BackColor = System.Drawing.SystemColors.ControlLightLight
+        Me.ClientSize = New System.Drawing.Size(960, 438)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.ToolStrip1)
+        Me.Controls.Add(Me.Btn_TambahPenjualan)
+        Me.Controls.Add(Me.DGV_Penjualan)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.Panel2)
-        Me.Controls.Add(Me.Panel3)
-        Me.Name = "FormBarang"
-        Me.Text = "Barang"
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
-        CType(Me.DGV_Barang, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.MenuStrip1.ResumeLayout(False)
-        Me.MenuStrip1.PerformLayout()
+        Me.Controls.Add(Me.Btn_UpdatePenjualan)
+        Me.Controls.Add(Me.Btn_HapusPenjualan)
+        Me.Name = "FormPenjualan"
+        Me.Text = "FormPenjualan"
+        Me.ToolStrip1.ResumeLayout(False)
+        Me.ToolStrip1.PerformLayout()
+        CType(Me.DGV_Penjualan, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
-    Friend WithEvents Label5 As Label
-    Friend WithEvents Label6 As Label
-    Friend WithEvents Txt_harga As TextBox
-    Friend WithEvents Label3 As Label
-    Friend WithEvents Date_Masuk As DateTimePicker
-    Friend WithEvents Date_Kadaluarsa As DateTimePicker
-    Friend WithEvents Txt_stock As TextBox
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Txt_NamaBarang As TextBox
-    Friend WithEvents Label7 As Label
-    Friend WithEvents SignOutToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TSMenu_FormPenjualan As ToolStripMenuItem
-    Friend WithEvents TSMenu_FormJenisBarang As ToolStripMenuItem
-    Friend WithEvents PilihFormLainnyaToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents TSMenu_FormBarangMasuk As ToolStripMenuItem
-    Friend WithEvents Btn_HapusBarang As Button
-    Friend WithEvents Btn_UpdateBarang As Button
-    Friend WithEvents Btn_TambahBarang As Button
-    Friend WithEvents DGV_Barang As DataGridView
-    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents Label1 As Label
+    Friend WithEvents ToolStripLabel2 As ToolStripLabel
+    Friend WithEvents ToolStripTextBox1 As ToolStripTextBox
+    Friend WithEvents ToolStripLabel1 As ToolStripLabel
+    Friend WithEvents ToolStripJenisBrg As ToolStripButton
+    Friend WithEvents ToolStripSeparator3 As ToolStripSeparator
+    Friend WithEvents ToolStripPenjualan As ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
+    Friend WithEvents ToolStripBrgMasuk As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents ToolStripBarang As ToolStripButton
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents ToolStripSignOut As ToolStripButton
+    Friend WithEvents Btn_TambahPenjualan As Button
+    Friend WithEvents DGV_Penjualan As DataGridView
     Friend WithEvents Label8 As Label
-    Friend WithEvents Panel2 As Panel
-    Friend WithEvents Panel3 As Panel
+    Friend WithEvents Btn_UpdatePenjualan As Button
+    Friend WithEvents Btn_HapusPenjualan As Button
 End Class

@@ -61,12 +61,12 @@ Public Class FormBarangMasuk
         formTambahBarangMasuk.Show()
     End Sub
 
-    Private Sub Btn_UpdatePenjualan_Click(sender As Object, e As EventArgs) Handles Btn_UpdateBarangMasuk.Click
+    Private Sub Btn_UpdateBarangMasuk_Click(sender As Object, e As EventArgs) Handles Btn_UpdateBarangMasuk.Click
         Dim formUpdateBarangMasuk = New FormUpdateBarangMasuk()
         formUpdateBarangMasuk.Show()
     End Sub
 
-    Private Sub Btn_HapusPenjualan_Click(sender As Object, e As EventArgs) Handles Btn_HapusBarangMasuk.Click
+    Private Sub Btn_HapusBarangMasuk_Click(sender As Object, e As EventArgs) Handles Btn_HapusBarangMasuk.Click
         Dim resultInput As DialogResult = MessageBox.Show("Yakin akan Menghapus?", "Pemberitahuan", MessageBoxButtons.YesNo)
 
         If resultInput = DialogResult.No Then
@@ -132,5 +132,6 @@ Public Class FormBarangMasuk
             formSignIn.Show()
             Me.Close()
         End If
-        
+    End Sub
+
 End Class

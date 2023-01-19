@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="FormSignIn.vb">
+    <Compile Update="FormBarang.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormBarang.vb">
+    <Compile Update="FormPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSignIn.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormBarangMasuk.vb">
@@ -13,10 +16,31 @@
     <Compile Update="FormJenisBarang.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormPenjualan.vb">
+    <Compile Update="FormSignUp.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="FormSignUp.vb">
+    <Compile Update="FormTambahBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTambahBarangMasuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTambahJenisBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormTambahPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUpdateBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUpdateBarangMasuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUpdateJenisBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUpdatePenjualan.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

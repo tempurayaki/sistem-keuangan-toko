@@ -16,22 +16,22 @@ Public Class FormTambahBarangMasuk
 
         End Sub
 
-        Private Sub FormTambahBarang_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-            mycmd.Connection = myconnection.open
-            mycmd.CommandText = "SELECT id_barang, nama_barang FROM barang ORDER BY id_barang"
-            dadapter = New MySqlDataAdapter(mycmd)
+    Private Sub FormTambahBarangMasuk_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        mycmd.Connection = myconnection.open
+        mycmd.CommandText = "SELECT id_barang, nama_barang FROM barang ORDER BY id_barang"
+        dadapter = New MySqlDataAdapter(mycmd)
 
-            dadapter.Fill(dTabel)
-            CB_namabarang.DataSource = dTabel
-            CB_namabarang.DisplayMember = "nama_barang"
-            CB_namabarang.ValueMember = "id_barang"
-            If CB_namabarang.Items.Count > 0 Then
-                CB_namabarang.Text = "Pilih Barang"
-            End If
+        dadapter.Fill(dTabel)
+        CB_namabarang.DataSource = dTabel
+        CB_namabarang.DisplayMember = "nama_barang"
+        CB_namabarang.ValueMember = "id_barang"
+        If CB_namabarang.Items.Count > 0 Then
+            CB_namabarang.Text = "Pilih Barang"
+        End If
 
-        End Sub
+    End Sub
 
-        Private Sub BtnTambahBarangMasuk_Click(sender As Object, e As EventArgs) Handles BtnTambahBarangMasuk.Click
+    Private Sub BtnTambahBarangMasuk_Click(sender As Object, e As EventArgs) Handles BtnTambahBarangMasuk.Click
 
             mycmd.CommandText = "INSERT INTO barang_masuk(id_barang, jumlah_barang_masuk, tanggal_barang_masuk)
                              VALUES('" _

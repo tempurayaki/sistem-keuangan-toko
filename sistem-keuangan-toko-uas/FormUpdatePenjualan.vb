@@ -15,7 +15,7 @@ Public Class FormUpdatePenjualan
 
     End Sub
 
-    Private Sub FormUpdateBarang_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub FormUpdatePenjualan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
         mycmd.Connection = myconnection.open
         mycmd.CommandText = "SELECT id_barang FROM barang ORDER BY id_barang"
@@ -25,9 +25,9 @@ Public Class FormUpdatePenjualan
         CB_namabarang.DataSource = dTabel
         CB_namabarang.DisplayMember = "id_barang"
         CB_namabarang.ValueMember = "id_barang"
-        If CB_namabarang.Items.Count > 0 Then
-            CB_namabarang.Text = "Pilih ID Barang"
-        End If
+        'If CB_namabarang.Items.Count > 0 Then
+        '    CB_namabarang.Text = "Pilih ID Barang"
+        'End If
 
         CB_namabarang.SelectedValue = FormPenjualan.id_barang_jual
         Txt_JumlahBarang.Text = FormPenjualan.jml_barang
@@ -60,7 +60,7 @@ Public Class FormUpdatePenjualan
         End If
     End Sub
 
-    Private Sub ToolStripButton1_Click_1(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
+    Private Sub ToolStripButton1_Click(sender As Object, e As EventArgs) Handles ToolStripButton1.Click
         Me.Close()
     End Sub
 End Class
