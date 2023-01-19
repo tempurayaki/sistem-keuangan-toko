@@ -74,7 +74,7 @@ Public Class FormBarang
             myconnection.close()
         End Sub
 
-        Private Sub Btn_TambahBarang_Click(sender As Object, e As EventArgs) Handles Btn_TambahBarang.Click
+        Private Sub Btn_TambahBarang_Click(sender As Object, e As EventArgs) 
             mycmd.Connection = myconnection.open
             mycmd.CommandText = "INSERT INTO barang(nama_barang, stock,harga,
                                 tanggal_masuk, tanggal_kadaluarsa)
@@ -96,7 +96,7 @@ Public Class FormBarang
         'End Sub
 
 
-        Private Sub Btn_UpdateBarang_Click(sender As Object, e As EventArgs) Handles Btn_UpdateBarang.Click
+        Private Sub Btn_UpdateBarang_Click(sender As Object, e As EventArgs) 
             If Txt_NamaBarang.Text = "" Or Txt_stock.Text = "" Or Txt_harga.Text = "" Then
                 MessageBox.Show("Pastikan semua Box terisi Datanya")
             ElseIf Date_Kadaluarsa.Value < Date_Masuk.Value Then
@@ -166,7 +166,7 @@ Public Class FormBarang
         '    Next
         'End Sub
 
-        Private Sub Btn_HapusBarang_Click(sender As Object, e As EventArgs) Handles Btn_HapusBarang.Click
+        Private Sub Btn_HapusBarang_Click(sender As Object, e As EventArgs) 
             If Txt_NamaBarang.Text = "" Or Txt_stock.Text = "" Or Txt_harga.Text = "" Then
                 MsgBox("Pastikan semua box terisi datanya")
             Else
@@ -188,7 +188,7 @@ Public Class FormBarang
 
         End Sub
 
-        Private Sub DGV_Barang_CellClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGV_Barang.CellClick
+        Private Sub DGV_Barang_CellClick(sender As Object, e As DataGridViewCellEventArgs) 
             Dim DGVIndex As Integer
             Dim SelectedRow As DataGridViewRow
             SelectedRow = DGV_Barang.Rows(DGVIndex)
@@ -206,25 +206,25 @@ Public Class FormBarang
             End With
         End Sub
 
-        Private Sub TSMenu_FormJenisBarang_Click(sender As Object, e As EventArgs) Handles TSMenu_FormJenisBarang.Click
+        Private Sub TSMenu_FormJenisBarang_Click(sender As Object, e As EventArgs) 
             Dim formJenis = New FormJenisBarang()
             formJenis.Show()
 
         End Sub
 
-        Private Sub TSMenu_FormPenjualan_Click(sender As Object, e As EventArgs) Handles TSMenu_FormPenjualan.Click
+        Private Sub TSMenu_FormPenjualan_Click(sender As Object, e As EventArgs) 
             Dim formPenjualan = New FormPenjualan()
             formPenjualan.Show()
 
         End Sub
 
-        Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TSMenu_FormBarangMasuk.Click
+        Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) 
             Dim formBarangMasuk = New FormBarangMasuk()
             formBarangMasuk.Show()
 
         End Sub
 
-        Private Sub SignOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SignOutToolStripMenuItem.Click
+        Private Sub SignOutToolStripMenuItem_Click(sender As Object, e As EventArgs) 
             MsgBox("Apakah anda yakin ingin keluar?", MessageBoxButtons.YesNo)
             Me.Close()
         End Sub

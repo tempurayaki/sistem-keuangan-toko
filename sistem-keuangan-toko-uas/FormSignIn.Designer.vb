@@ -24,7 +24,7 @@ Partial Class FormSignIn
     Private Sub InitializeComponent()
         Me.Txt_Email = New System.Windows.Forms.TextBox()
         Me.Txt_Password = New System.Windows.Forms.TextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Txt_Username = New System.Windows.Forms.TextBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -53,14 +53,14 @@ Partial Class FormSignIn
         Me.Txt_Password.Size = New System.Drawing.Size(321, 30)
         Me.Txt_Password.TabIndex = 48
         '
-        'TextBox1
+        'Txt_Username
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.TextBox1.Location = New System.Drawing.Point(464, 147)
-        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(321, 30)
-        Me.TextBox1.TabIndex = 47
+        Me.Txt_Username.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Txt_Username.Location = New System.Drawing.Point(464, 147)
+        Me.Txt_Username.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
+        Me.Txt_Username.Name = "Txt_Username"
+        Me.Txt_Username.Size = New System.Drawing.Size(321, 30)
+        Me.Txt_Username.TabIndex = 47
         '
         'Panel1
         '
@@ -165,7 +165,7 @@ Partial Class FormSignIn
         Me.Controls.Add(Me.BtnSignIn)
         Me.Controls.Add(Me.Txt_Email)
         Me.Controls.Add(Me.Txt_Password)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Txt_Username)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
@@ -180,7 +180,7 @@ Partial Class FormSignIn
     End Sub
     Friend WithEvents Txt_Email As TextBox
     Friend WithEvents Txt_Password As TextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Txt_Username As TextBox
     Friend WithEvents Panel1 As Panel
     Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label

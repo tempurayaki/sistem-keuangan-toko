@@ -19,5 +19,11 @@
     <Compile Update="FormSignUp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FormTambahPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormUpdatePenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
