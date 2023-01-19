@@ -16,7 +16,7 @@ Public Class FormTambahPenjualan
     End Sub
 
 
-    Private Sub FormTambahBarang_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub FormTambahPenjualan_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         mycmd.Connection = myconnection.open
         mycmd.CommandText = "SELECT id_barang, nama_barang FROM barang ORDER BY id_barang"
         dadapter = New MySqlDataAdapter(mycmd)

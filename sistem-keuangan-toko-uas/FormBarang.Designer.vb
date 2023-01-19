@@ -23,6 +23,7 @@ Partial Class FormBarang
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Panel4 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -52,7 +53,6 @@ Partial Class FormBarang
         Me.DGV_Barang = New System.Windows.Forms.DataGridView()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Btn_HapusBarang = New System.Windows.Forms.Button()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         CType(Me.DGV_Stock, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -64,7 +64,7 @@ Partial Class FormBarang
         Me.Label4.AutoSize = True
         Me.Label4.BackColor = System.Drawing.Color.White
         Me.Label4.Font = New System.Drawing.Font("UD Digi Kyokasho NK-R", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(221, 67)
+        Me.Label4.Location = New System.Drawing.Point(240, 67)
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(86, 18)
@@ -72,17 +72,27 @@ Partial Class FormBarang
         Me.Label4.Text = "est. 2022"
         Me.Label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'Panel4
+        '
+        Me.Panel4.BackColor = System.Drawing.Color.White
+        Me.Panel4.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources.store
+        Me.Panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Panel4.Location = New System.Drawing.Point(237, 94)
+        Me.Panel4.Name = "Panel4"
+        Me.Panel4.Size = New System.Drawing.Size(93, 88)
+        Me.Panel4.TabIndex = 85
+        '
         'Panel1
         '
         Me.Panel1.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources._CITYPNG_COM_Download_White_Circle_PNG___1157x1157
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel1.Controls.Add(Me.Panel2)
         Me.Panel1.Controls.Add(Me.Label4)
         Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.Panel4)
         Me.Panel1.Controls.Add(Me.Label2)
-        Me.Panel1.Location = New System.Drawing.Point(1156, 86)
+        Me.Panel1.Location = New System.Drawing.Point(1156, 90)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(543, 344)
+        Me.Panel1.Size = New System.Drawing.Size(569, 344)
         Me.Panel1.TabIndex = 93
         '
         'Label3
@@ -90,7 +100,7 @@ Partial Class FormBarang
         Me.Label3.AutoSize = True
         Me.Label3.BackColor = System.Drawing.Color.White
         Me.Label3.Font = New System.Drawing.Font("UD Digi Kyokasho NK-R", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(173, 237)
+        Me.Label3.Location = New System.Drawing.Point(188, 235)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(195, 18)
@@ -103,7 +113,7 @@ Partial Class FormBarang
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.White
         Me.Label2.Font = New System.Drawing.Font("Chicken Crispy", 14.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(175, 196)
+        Me.Label2.Location = New System.Drawing.Point(187, 190)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(193, 37)
@@ -216,10 +226,9 @@ Partial Class FormBarang
         'ToolStripBarang
         '
         Me.ToolStripBarang.Font = New System.Drawing.Font("Century Gothic", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.ToolStripBarang.Image = Global.sistem_keuangan_toko_uas.My.Resources.Resources.catalogue
         Me.ToolStripBarang.ImageTransparentColor = System.Drawing.Color.Magenta
         Me.ToolStripBarang.Name = "ToolStripBarang"
-        Me.ToolStripBarang.Size = New System.Drawing.Size(189, 29)
+        Me.ToolStripBarang.Size = New System.Drawing.Size(164, 29)
         Me.ToolStripBarang.Text = "Katalog Barang"
         '
         'ToolStrip1
@@ -229,7 +238,7 @@ Partial Class FormBarang
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripBarang, Me.ToolStripSeparator1, Me.ToolStripBrgMasuk, Me.ToolStripSeparator2, Me.ToolStripPenjualan, Me.ToolStripSeparator3, Me.ToolStripJenisBrg, Me.ToolStripLabel1, Me.ToolStripTextBox1, Me.ToolStripLabel2, Me.ToolStripTextBox2, Me.ToolStripTextBox3, Me.ToolStripTextBox4, Me.ToolStripTextBox5, Me.ToolStripTextBox6, Me.ToolStripTextBox8, Me.ToolStripTextBox7, Me.ToolStripSignOut})
         Me.ToolStrip1.Location = New System.Drawing.Point(0, 0)
         Me.ToolStrip1.Name = "ToolStrip1"
-        Me.ToolStrip1.Size = New System.Drawing.Size(1709, 34)
+        Me.ToolStrip1.Size = New System.Drawing.Size(1678, 34)
         Me.ToolStrip1.TabIndex = 92
         Me.ToolStrip1.Text = "ToolStrip1"
         '
@@ -247,7 +256,7 @@ Partial Class FormBarang
         Me.DGV_Stock.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DGV_Stock.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DGV_Stock.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_Stock.Location = New System.Drawing.Point(1293, 441)
+        Me.DGV_Stock.Location = New System.Drawing.Point(1295, 445)
         Me.DGV_Stock.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.DGV_Stock.Name = "DGV_Stock"
         Me.DGV_Stock.RowHeadersWidth = 51
@@ -260,7 +269,7 @@ Partial Class FormBarang
         Me.label1.AutoSize = True
         Me.label1.Font = New System.Drawing.Font("Century Gothic", 13.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.label1.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.label1.Location = New System.Drawing.Point(1182, 535)
+        Me.label1.Location = New System.Drawing.Point(1184, 539)
         Me.label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.label1.Name = "label1"
         Me.label1.Size = New System.Drawing.Size(103, 60)
@@ -275,7 +284,7 @@ Partial Class FormBarang
         Me.Btn_UpdateBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn_UpdateBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_UpdateBarang.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Btn_UpdateBarang.Location = New System.Drawing.Point(451, 626)
+        Me.Btn_UpdateBarang.Location = New System.Drawing.Point(453, 630)
         Me.Btn_UpdateBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Btn_UpdateBarang.Name = "Btn_UpdateBarang"
         Me.Btn_UpdateBarang.Size = New System.Drawing.Size(176, 50)
@@ -290,7 +299,7 @@ Partial Class FormBarang
         Me.Btn_TambahBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn_TambahBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_TambahBarang.ForeColor = System.Drawing.SystemColors.MenuText
-        Me.Btn_TambahBarang.Location = New System.Drawing.Point(267, 626)
+        Me.Btn_TambahBarang.Location = New System.Drawing.Point(269, 630)
         Me.Btn_TambahBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Btn_TambahBarang.Name = "Btn_TambahBarang"
         Me.Btn_TambahBarang.Size = New System.Drawing.Size(176, 50)
@@ -303,7 +312,7 @@ Partial Class FormBarang
         Me.DGV_Barang.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DGV_Barang.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.DGV_Barang.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_Barang.Location = New System.Drawing.Point(30, 138)
+        Me.DGV_Barang.Location = New System.Drawing.Point(32, 142)
         Me.DGV_Barang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.DGV_Barang.Name = "DGV_Barang"
         Me.DGV_Barang.RowHeadersWidth = 51
@@ -315,7 +324,7 @@ Partial Class FormBarang
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Century Gothic", 20.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(30, 68)
+        Me.Label8.Location = New System.Drawing.Point(32, 72)
         Me.Label8.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(346, 47)
@@ -329,7 +338,7 @@ Partial Class FormBarang
         Me.Btn_HapusBarang.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Btn_HapusBarang.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_HapusBarang.ForeColor = System.Drawing.Color.IndianRed
-        Me.Btn_HapusBarang.Location = New System.Drawing.Point(635, 626)
+        Me.Btn_HapusBarang.Location = New System.Drawing.Point(637, 630)
         Me.Btn_HapusBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Btn_HapusBarang.Name = "Btn_HapusBarang"
         Me.Btn_HapusBarang.Size = New System.Drawing.Size(176, 50)
@@ -337,22 +346,12 @@ Partial Class FormBarang
         Me.Btn_HapusBarang.Text = "Hapus"
         Me.Btn_HapusBarang.UseVisualStyleBackColor = False
         '
-        'Panel2
-        '
-        Me.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Panel2.BackgroundImage = Global.sistem_keuangan_toko_uas.My.Resources.Resources.store
-        Me.Panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel2.Location = New System.Drawing.Point(190, 90)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(149, 97)
-        Me.Panel2.TabIndex = 88
-        '
         'FormBarang
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.GradientInactiveCaption
-        Me.ClientSize = New System.Drawing.Size(1709, 711)
+        Me.ClientSize = New System.Drawing.Size(1678, 718)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip1)
         Me.Controls.Add(Me.DGV_Stock)
@@ -363,7 +362,7 @@ Partial Class FormBarang
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Btn_HapusBarang)
         Me.Name = "FormBarang"
-        Me.Text = "Barang"
+        Me.Text = "FormBarang"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ToolStrip1.ResumeLayout(False)
@@ -376,8 +375,8 @@ Partial Class FormBarang
     End Sub
 
     Friend WithEvents Label4 As Label
+    Friend WithEvents Panel4 As Panel
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents Panel2 As Panel
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents ToolStripSignOut As ToolStripButton

@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class FormUpdatePenjualan
+Partial Class FormTambahBarangMasuk
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -28,11 +28,11 @@ Partial Class FormUpdatePenjualan
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.Date_Jual = New System.Windows.Forms.DateTimePicker()
-        Me.Txt_JumlahBarang = New System.Windows.Forms.TextBox()
+        Me.Date_Masuk = New System.Windows.Forms.DateTimePicker()
+        Me.Txt_JmlBrg = New System.Windows.Forms.TextBox()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
-        Me.Btn_Update = New System.Windows.Forms.Button()
+        Me.BtnTambahBarangMasuk = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -41,12 +41,12 @@ Partial Class FormUpdatePenjualan
         '
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Century Gothic", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label7.Location = New System.Drawing.Point(193, 61)
+        Me.Label7.Location = New System.Drawing.Point(167, 82)
         Me.Label7.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(256, 34)
-        Me.Label7.TabIndex = 80
-        Me.Label7.Text = "Update Penjualan"
+        Me.Label7.Size = New System.Drawing.Size(324, 34)
+        Me.Label7.TabIndex = 78
+        Me.Label7.Text = "Tambah Barang Masuk"
         '
         'Panel1
         '
@@ -55,68 +55,72 @@ Partial Class FormUpdatePenjualan
         Me.Panel1.Controls.Add(Me.Label2)
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.Date_Jual)
-        Me.Panel1.Controls.Add(Me.Txt_JumlahBarang)
+        Me.Panel1.Controls.Add(Me.Date_Masuk)
+        Me.Panel1.Controls.Add(Me.Txt_JmlBrg)
         Me.Panel1.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-        Me.Panel1.Location = New System.Drawing.Point(35, 112)
+        Me.Panel1.Location = New System.Drawing.Point(48, 128)
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(557, 182)
-        Me.Panel1.TabIndex = 81
+        Me.Panel1.Size = New System.Drawing.Size(576, 175)
+        Me.Panel1.TabIndex = 79
         '
         'CB_namabarang
         '
         Me.CB_namabarang.FormattingEnabled = True
-        Me.CB_namabarang.Location = New System.Drawing.Point(210, 15)
+        Me.CB_namabarang.Location = New System.Drawing.Point(210, 24)
         Me.CB_namabarang.Name = "CB_namabarang"
         Me.CB_namabarang.Size = New System.Drawing.Size(311, 29)
-        Me.CB_namabarang.TabIndex = 74
+        Me.CB_namabarang.TabIndex = 49
         '
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(17, 21)
+        Me.Label2.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label2.Location = New System.Drawing.Point(17, 26)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(95, 21)
+        Me.Label2.Size = New System.Drawing.Size(132, 22)
         Me.Label2.TabIndex = 11
-        Me.Label2.Text = "ID Barang"
+        Me.Label2.Text = "Nama Barang"
         '
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(17, 124)
+        Me.Label5.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label5.Location = New System.Drawing.Point(17, 118)
         Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(120, 21)
+        Me.Label5.Size = New System.Drawing.Size(143, 22)
         Me.Label5.TabIndex = 16
-        Me.Label5.Text = "Tanggal Jual"
+        Me.Label5.Text = "Tanggal Masuk"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(17, 72)
+        Me.Label3.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.Label3.Location = New System.Drawing.Point(19, 72)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(140, 21)
+        Me.Label3.Size = New System.Drawing.Size(142, 22)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "Jumlah Barang"
         '
-        'Date_Jual
+        'Date_Masuk
         '
-        Me.Date_Jual.Location = New System.Drawing.Point(210, 124)
-        Me.Date_Jual.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Date_Jual.Name = "Date_Jual"
-        Me.Date_Jual.Size = New System.Drawing.Size(311, 30)
-        Me.Date_Jual.TabIndex = 14
+        Me.Date_Masuk.CalendarForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.Date_Masuk.Location = New System.Drawing.Point(210, 118)
+        Me.Date_Masuk.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Date_Masuk.Name = "Date_Masuk"
+        Me.Date_Masuk.Size = New System.Drawing.Size(311, 30)
+        Me.Date_Masuk.TabIndex = 14
         '
-        'Txt_JumlahBarang
+        'Txt_JmlBrg
         '
-        Me.Txt_JumlahBarang.Location = New System.Drawing.Point(210, 72)
-        Me.Txt_JumlahBarang.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Txt_JumlahBarang.Name = "Txt_JumlahBarang"
-        Me.Txt_JumlahBarang.Size = New System.Drawing.Size(311, 30)
-        Me.Txt_JumlahBarang.TabIndex = 8
+        Me.Txt_JmlBrg.Location = New System.Drawing.Point(210, 68)
+        Me.Txt_JmlBrg.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.Txt_JmlBrg.Name = "Txt_JmlBrg"
+        Me.Txt_JmlBrg.Size = New System.Drawing.Size(311, 30)
+        Me.Txt_JmlBrg.TabIndex = 8
         '
         'ToolStrip1
         '
@@ -124,10 +128,10 @@ Partial Class FormUpdatePenjualan
         Me.ToolStrip1.Dock = System.Windows.Forms.DockStyle.None
         Me.ToolStrip1.ImageScalingSize = New System.Drawing.Size(22, 22)
         Me.ToolStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1})
-        Me.ToolStrip1.Location = New System.Drawing.Point(15, 18)
+        Me.ToolStrip1.Location = New System.Drawing.Point(13, 25)
         Me.ToolStrip1.Name = "ToolStrip1"
         Me.ToolStrip1.Size = New System.Drawing.Size(127, 31)
-        Me.ToolStrip1.TabIndex = 83
+        Me.ToolStrip1.TabIndex = 81
         Me.ToolStrip1.Text = "ToolStrip1"
         '
         'ToolStripButton1
@@ -139,32 +143,32 @@ Partial Class FormUpdatePenjualan
         Me.ToolStripButton1.Size = New System.Drawing.Size(109, 26)
         Me.ToolStripButton1.Text = "  Kembali"
         '
-        'Btn_Update
+        'BtnTambahBarangMasuk
         '
-        Me.Btn_Update.BackColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Btn_Update.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Btn_Update.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Update.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.Btn_Update.Location = New System.Drawing.Point(228, 325)
-        Me.Btn_Update.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.Btn_Update.Name = "Btn_Update"
-        Me.Btn_Update.Size = New System.Drawing.Size(176, 50)
-        Me.Btn_Update.TabIndex = 82
-        Me.Btn_Update.Text = "Update"
-        Me.Btn_Update.UseVisualStyleBackColor = False
+        Me.BtnTambahBarangMasuk.BackColor = System.Drawing.SystemColors.HighlightText
+        Me.BtnTambahBarangMasuk.FlatAppearance.BorderSize = 0
+        Me.BtnTambahBarangMasuk.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.BtnTambahBarangMasuk.Font = New System.Drawing.Font("Century Gothic", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.BtnTambahBarangMasuk.Location = New System.Drawing.Point(234, 326)
+        Me.BtnTambahBarangMasuk.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.BtnTambahBarangMasuk.Name = "BtnTambahBarangMasuk"
+        Me.BtnTambahBarangMasuk.Size = New System.Drawing.Size(176, 50)
+        Me.BtnTambahBarangMasuk.TabIndex = 80
+        Me.BtnTambahBarangMasuk.Text = "Tambah"
+        Me.BtnTambahBarangMasuk.UseVisualStyleBackColor = False
         '
-        'FormUpdatePenjualan
+        'FormTambahBarangMasuk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 25.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.InactiveBorder
-        Me.ClientSize = New System.Drawing.Size(634, 405)
+        Me.ClientSize = New System.Drawing.Size(687, 401)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.ToolStrip1)
-        Me.Controls.Add(Me.Btn_Update)
-        Me.Name = "FormUpdatePenjualan"
-        Me.Text = "FormUpdatePenjualan"
+        Me.Controls.Add(Me.BtnTambahBarangMasuk)
+        Me.Name = "FormTambahBarangMasuk"
+        Me.Text = "FormTambahBarangMasuk"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.ToolStrip1.ResumeLayout(False)
@@ -180,9 +184,9 @@ Partial Class FormUpdatePenjualan
     Friend WithEvents Label2 As Label
     Friend WithEvents Label5 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Date_Jual As DateTimePicker
-    Friend WithEvents Txt_JumlahBarang As TextBox
+    Friend WithEvents Date_Masuk As DateTimePicker
+    Friend WithEvents Txt_JmlBrg As TextBox
     Friend WithEvents ToolStrip1 As ToolStrip
     Friend WithEvents ToolStripButton1 As ToolStripButton
-    Friend WithEvents Btn_Update As Button
+    Friend WithEvents BtnTambahBarangMasuk As Button
 End Class
